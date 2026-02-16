@@ -22,11 +22,11 @@ curl -sSL https://raw.githubusercontent.com/K-Rutuparna1087/psiphon_smart/main/i
 sudo apt update
 sudo apt install wget -y
 ```
-
+After installation, start Psiphon using:
 ---
-
-After committing these files, your repo will be fully functional and the installer will work immediately.
-
+```bash
+psiphon
+```
 ---
 OR
 ---
