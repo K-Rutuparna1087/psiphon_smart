@@ -10,6 +10,12 @@ This guide shows how to install Psiphon on Linux and configure a **smart launche
 
 ---
 
+## One-Line Install (Recommended)
+
+```bash
+curl -sSL https://raw.githubusercontent.com/K-Rutuparna1087/psiphon_smart/main/install.sh | bash
+
+
 ## 1. Install wget (if not installed)
 
 ```bash
@@ -19,7 +25,13 @@ sudo apt install wget -y
 
 ---
 
-## 2. Install Psiphon Linux
+After committing these files, your repo will be fully functional and the installer will work immediately.
+
+---
+OR
+---
+
+## 1. Install Psiphon Linux
 
 ```bash
 cd ~/Downloads
@@ -35,7 +47,7 @@ sudo psiphon
 
 ---
 
-## 3. Create Smart Launcher Script
+## 2. Create Smart Launcher Script
 
 Create the script:
 
@@ -99,7 +111,7 @@ chmod +x ~/psiphon_smart.sh
 
 ---
 
-## 4. Create Global Command (Optional)
+## 3. Create Global Command (Optional)
 
 Create launcher:
 
@@ -128,7 +140,7 @@ psiphon
 
 ---
 
-## 5. Usage
+## 4. Usage
 
 Start Psiphon:
 
