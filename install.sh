@@ -15,6 +15,6 @@ chmod +x ~/psiphon_smart.sh
 
 echo '#!/bin/bash' | sudo tee /usr/bin/psiphon > /dev/null
 echo 'bash ~/psiphon_smart.sh' | sudo tee -a /usr/bin/psiphon > /dev/null
-sudo chmod +x /usr/local/bin/psiphon
+sudo chmod +x /usr/bin/psiphon
 
 echo "Installation complete. Run: psiphon"
