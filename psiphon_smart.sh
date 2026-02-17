@@ -12,7 +12,7 @@ trap cleanup INT TERM
 
 echo "Starting Psiphon..."
 
-sudo /usr/bin/psiphon > /dev/null 2>&1 &
+sudo psiphon > /dev/null 2>&1 &
 PSIPHON_PID=$!
 
 echo "Waiting for Psiphon proxy..."
