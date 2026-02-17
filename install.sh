@@ -6,7 +6,7 @@ cd ~/Downloads
 wget https://raw.githubusercontent.com/SpherionOS/PsiphonLinux/main/plinstaller2
 sudo sh plinstaller2
 sudo rm -rf plinstaller2
-psiphon
+
 echo "Installing Psiphon Smart Launcher..."
 sudo apt install wget curl netcat-openbsd -y
 
